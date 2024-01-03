@@ -23,7 +23,7 @@ User should be able to:
 
 ### Screenshot
 
-![](.screenshot/Screenshot(90).jpg)
+[.screenshot/Screenshot(90).jpg]
 
 
 ### Links
@@ -40,7 +40,7 @@ User should be able to:
 ## Author
 
 - Website - [Ebenezer Arkoh]
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Arkoholic)
+- Frontend Mentor - [@Arkoholic](https://www.frontendmentor.io/profile/Arkoholic)
 
 
 
