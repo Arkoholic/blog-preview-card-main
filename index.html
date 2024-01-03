@@ -6,6 +6,20 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Blog preview card</title>
   <style>
+    @font-face {
+      font-family: Figtree-ExtraBold;
+      src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+    }
+
+    @font-face {
+      font-family: Figtree-SemiBold;
+      src: url(./assets/fonts/static/Figtree-SemiBold.ttf);
+    }
+
+    @font-face {
+      font-family: Figtree-variable;
+      src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+    }
     body {
       background-color: #F5D04E;
       margin: 0;
@@ -32,6 +46,7 @@
       width: 100%;
     }
     .tag {
+      font-family: Figtree-ExtraBold;
       margin: 10px 0px;
       background-color: #F5D04E;
       border-radius: 5px;
@@ -39,7 +54,6 @@
       
     }
     .tag p {
-      font-weight: bold;
       margin: 0;
     }
     .illustration-article {
@@ -48,8 +62,12 @@
     }
     .blog-title {
       margin: 0;
+      font-family: Figtree-ExtraBold;
     }
     .blog-content {
+      font-family: Figtree-variable;
+      margin-top: -13px;
+      color: gray;
       overflow-wrap: break-word;
       margin-bottom: 10px;
     }
@@ -58,9 +76,13 @@
       flex-direction: row;
     }
     .author-info span {
+      font-family: Figtree-ExtraBold;
       align-self: center;
       margin-left: 10px;
       
+    }
+    .published-date {
+      font-family: Figtree-SemiBold;
     }
   
   </style>
